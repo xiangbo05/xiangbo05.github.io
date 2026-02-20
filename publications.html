@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publications | Xiangbo Zhang</title>
+    <meta name="description" content="Publications of Xiangbo Zhang." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Noto+Serif:wght@500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/data/publications.js" defer></script>
+    <script src="assets/js/publications.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body id="top">
+    <header class="site-header fixed-header">
+      <div class="container header-row">
+        <div class="title-block">
+          <a class="brand" href="index.html">Xiangbo Zhang</a>
+          <p class="subtitle">Publication List</p>
+        </div>
+
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main Navigation">
+          <a href="index.html#about">Home</a>
+          <a href="publications.html" class="active">Publications</a>
+          <a href="index.html#service">Service</a>
+          <a href="index.html#cv">CV</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 15.3A8 8 0 1 1 12.7 4a7 7 0 1 0 7.3 11.3Z" />
+          </svg>
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2" />
+            <path d="M12 2.2v2.3M12 19.5v2.3M4.5 4.5l1.6 1.6M17.9 17.9l1.6 1.6M2.2 12h2.3M19.5 12h2.3M4.5 19.5l1.6-1.6M17.9 6.1l1.6-1.6" />
+          </svg>
+          <span class="sr-only">Toggle theme</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="container page-main">
+      <section class="page-intro reveal visible">
+        <h1>Publications</h1>
+        <p>Complete publication and preprint list.</p>
+      </section>
+
+      <section class="contact-card reveal delay-1">
+        <p>
+          Google Scholar:
+          <a href="https://scholar.google.com/citations?user=jVJaA-QAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">
+            https://scholar.google.com/citations?user=jVJaA-QAAAAJ
+          </a>
+        </p>
+      </section>
+
+      <section id="all-publications-list" class="reveal delay-2"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>Last updated: <span id="last-updated"></span></p>
+        <p>&copy; <span id="current-year"></span> Xiangbo Zhang</p>
+      </div>
+    </footer>
+  </body>
+</html>

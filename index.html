@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xiangbo Zhang</title>
+    <meta name="description" content="Xiangbo Zhang academic homepage." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;family=Noto+Serif:wght@500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body id="top">
+    <header class="site-header fixed-header">
+      <div class="container header-row">
+        <div class="title-block">
+          <a class="brand" href="#top">Xiangbo Zhang</a>
+          <p class="subtitle">B.S. in Mathematics, Georgia Tech</p>
+        </div>
+
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main Navigation">
+          <a href="#about" class="active">Home</a>
+          <a href="#publications">Publications</a>
+          <a href="#service">Service</a>
+          <a href="#equity">Equity</a>
+          <a href="#cv">CV</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 15.3A8 8 0 1 1 12.7 4a7 7 0 1 0 7.3 11.3Z" />
+          </svg>
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2" />
+            <path d="M12 2.2v2.3M12 19.5v2.3M4.5 4.5l1.6 1.6M17.9 17.9l1.6 1.6M2.2 12h2.3M19.5 12h2.3M4.5 19.5l1.6-1.6M17.9 6.1l1.6-1.6" />
+          </svg>
+          <span class="sr-only">Toggle theme</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <section id="about" class="section reveal visible">
+        <div class="about-layout">
+          <div class="photo-wrap">
+            <div class="photo-stack">
+              <img src="assets/img/avatar-light.jpg" alt="Xiangbo Zhang portrait" class="photo photo-light" />
+              <img src="assets/img/avatar-photo.png" alt="Xiangbo Zhang portrait" class="photo photo-dark" />
+            </div>
+            <div class="photo-contact">
+              <a href="mailto:xiangbo.zhang@gatech.edu">
+                <svg class="contact-icon" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.2L8 9 0 4.2V4zm0 1.7V12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.7L8.5 10a1 1 0 0 1-1 0L0 5.7z" />
+                </svg>
+                <span>xiangbo.zhang@gatech.edu</span>
+              </a>
+              <a href="https://www.linkedin.com/in/xiangbo-zhang-709981303/" target="_blank" rel="noreferrer">
+                <svg class="contact-icon" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M1.2 0A1.2 1.2 0 0 0 0 1.2v13.6A1.2 1.2 0 0 0 1.2 16h13.6a1.2 1.2 0 0 0 1.2-1.2V1.2A1.2 1.2 0 0 0 14.8 0H1.2zM4.7 13.3H2.7V6.8h2v6.5zm-1-7.4c-.7 0-1.2-.6-1.2-1.2 0-.7.5-1.2 1.2-1.2s1.2.5 1.2 1.2c0 .6-.5 1.2-1.2 1.2zm9.6 7.4h-2v-3.2c0-.8 0-1.8-1.1-1.8-1.1 0-1.3.9-1.3 1.8v3.2h-2V6.8h1.9v.9h.1c.3-.5.9-1.1 2-1.1 2.1 0 2.5 1.4 2.5 3.1v3.6z" />
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://scholar.google.com/citations?user=jVJaA-QAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">
+                <svg class="contact-icon" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M8 0 0 4.5 8 9l6-3.4V11h2V4.5L8 0zm-4 9.8V12c0 1.7 2.2 3 4 3s4-1.3 4-3V9.8L8 12 4 9.8z" />
+                </svg>
+                <span>Google Scholar</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <h1>Xiangbo Zhang</h1>
+            <p>
+              I am an undergraduate student in Mathematics at the Georgia Institute of Technology.
+            </p>
+            <p>
+              My research interests lie at the intersection of machine learning, language model behavior, and robust
+              control for nonlinear systems. In particular, I am highly interested in building safe, aligned, and fair
+              large language models, and in understanding their behavior through principled and interpretable
+              approaches.
+            </p>
+            <p>
+              I enjoy developing theory-driven machine learning systems and connecting mathematical foundations&mdash;such
+              as optimization, control, and statistical reasoning&mdash;with practical, deployable ML systems. My current
+              work focuses on interpretable and reliable learning pipelines, multi-agent LLM systems, and evaluation
+              frameworks for robustness, alignment, and fairness.
+            </p>
+            <p>
+              Open to research collaborations and academic discussions, please feel free to send me
+              <a href="mailto:xiangbo.zhang@gatech.edu">one email</a>.
+            </p>
+            <div class="meta-grid">
+              <div>
+                <h2>Education</h2>
+                <p><strong>Georgia Institute of Technology</strong> | Sep. 2025 - May 2027 (Expected)</p>
+                <p>B.S. in Mathematics, GPA: 4.00/4.00</p>
+                <p><strong>Kean University</strong> | Sep. 2023 - May 2025</p>
+                <p>B.A. Math Sciences + B.S. Computer Science (Transfer Out), GPA: 3.99/4.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="publications" class="section reveal">
+        <h2>Publications</h2>
+        <ul class="entry-list no-bullet">
+          <li>
+            <p>
+              <strong>Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts</strong>.
+              Ye, Q., Sang, S., Ma, X., <u>Zhang, X.</u> CHI 2026 (Accepted).
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Frequency-Aware Sparse Capsule Networks for Hyperspectral Image Classification</strong>. Wang, J.,
+              Liu, Q., Gao, Z., <u>Zhang, X.</u>, Dou, Z., Belal Abuhaija, Huang, K. Cognitive Computation, 2026
+              (Under Review).
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Memory Dial: A Training Framework for Controllable Memorization in Language Models</strong>.
+              <u>Zhang, X.</u>, Emami, A. ACL ARR 2026.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations</strong>.
+              Ma, X., <u>Zhang, X.</u>, Weng, Z. ACL ARR 2026.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>UniHash: Unifying Pointwise and Pairwise Hashing Paradigms</strong>. Ma, X., Li, R., Liu, H.,
+              <u>Zhang, X.</u>, Weng, Z. ICML 2026 (Under Review)
+              [<a href="https://arxiv.org/abs/2601.09828" target="_blank" rel="noreferrer">arXiv</a>].
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Discrete Wavelet Transform-Based Capsule Network for Hyperspectral Image Classification</strong>.
+              Gao, Z., Wang, J., Shen, H., Dou, Z., <u>Zhang, X.</u>, Huang, K. arXiv 2025
+              [<a href="https://arxiv.org/abs/2501.04643" target="_blank" rel="noreferrer">arXiv</a>].
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Global Output Regulation for Uncertain Feedforward Nonlinear Systems with Unknown Nonlinear Growth Rate</strong>.
+              Chang, L., <u>Zhang, X.</u> IJRNC 2025
+              [<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.7862" target="_blank" rel="noreferrer">Paper</a>].
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>State-Feedback Control of a Class of Nonlinear Systems with Neutral Delays</strong>. <u>Zhang,
+              X.</u> CSIS-IAC 2024
+              [<a href="https://ieeexplore.ieee.org/abstract/document/10919404/" target="_blank" rel="noreferrer">Paper</a>].
+            </p>
+          </li>
+        </ul>
+        <p class="jump-link"><a href="publications.html">View publication page</a></p>
+      </section>
+
+      <hr />
+
+      <section id="service" class="section reveal">
+        <h2>Service</h2>
+        <ul class="entry-list no-bullet">
+          <li><p><strong>Reviewer</strong>, ACL ARR 2026</p></li>
+          <li><p><strong>Teaching Assistant</strong>, MATH 1010 Foundations of Math, Kean University (Summer 2024)</p></li>
+          <li><p><strong>STME Tutor</strong>, Educational Opportunity Fund Program, Kean University (2024-2025)</p></li>
+          <li><p><strong>Math Tutor</strong>, Department of Mathematical Sciences, Kean University (2025)</p></li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section id="equity" class="section reveal">
+        <h2>Equity, Access, and Community</h2>
+        <p>I strongly support the principles of Diversity, Equity, and Inclusion.</p>
+        <p>
+          I come from a resource-limited background, where access to research training and academic mentorship was
+          often scarce. My opportunity to pursue higher education and research in the United States has been made
+          possible through scholarships and institutional support, which I deeply value.
+        </p>
+        <p>
+          These experiences have shaped my understanding that talent is widely distributed, while opportunity is not.
+          I am especially happy to engage with and support students and researchers from underrepresented or
+          less-resourced backgrounds, and to discuss practical paths toward academic and research success.
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="cv" class="section reveal">
+        <h2>CV</h2>
+        <p>
+          <a href="assets/docs/GaTech_CV_2026.pdf" target="_blank" rel="noreferrer">Open CV (PDF)</a>
+        </p>
+        <object data="assets/docs/GaTech_CV_2026.pdf" type="application/pdf" class="cv-viewer">
+          <p>Your browser cannot display this PDF. <a href="assets/docs/GaTech_CV_2026.pdf">Open CV</a>.</p>
+        </object>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>Last updated: <span id="last-updated"></span></p>
+        <p>&copy; <span id="current-year"></span> Xiangbo Zhang</p>
+      </div>
+    </footer>
+  </body>
+</html>
