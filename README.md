@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Academic Personal Website
 
 Current structure:
@@ -50,3 +51,6 @@ git push -u origin main
 3. GitHub: `Settings -> Pages`
 4. Set `Deploy from a branch`, branch `main`, folder `/ (root)`
 5. Open `https://xiangbozhang.github.io`
+=======
+# xiangbo05.github.io
+>>>>>>> origin/main
