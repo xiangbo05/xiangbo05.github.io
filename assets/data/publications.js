@@ -7,12 +7,14 @@ window.PUBLICATIONS_DATA = {
       "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
       "authors": [
         "Xiaoxu Ma",
-<<<<<<< HEAD
-        "Xiangbo Zhang"
+        "Runhao Li",
+        "Hanwen Liu",
+        "Xiangbo Zhang",
+        "Zhenyu Weng"
       ],
       "year": 2026,
-      "venue": "CHI 2026 (Accepted)",
-      "url": "",
+      "venue": "ICML 2026 (Under Review)",
+      "url": "https://arxiv.org/abs/2601.09828",
       "citations": 0
     },
     {
