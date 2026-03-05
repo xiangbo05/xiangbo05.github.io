@@ -17,22 +17,6 @@ window.PUBLICATIONS_DATA = {
       "citations": 0
     },
     {
-      "title": "Frequency-Aware Sparse Capsule Networks for Hyperspectral Image Classification",
-      "authors": [
-        "Jiaqi Wang",
-        "Qian Liu",
-        "Zhiqiang Gao",
-        "Xiangbo Zhang",
-        "Zhihao Dou",
-        "Belal Abuhaija",
-        "Kaizhu Huang"
-      ],
-      "year": 2026,
-      "venue": "Cognitive Computation (Under Review)",
-      "url": "",
-      "citations": 0
-    },
-    {
       "title": "Memory Dial: A Training Framework for Controllable Memorization in Language Models",
       "authors": [
         "Xiangbo Zhang",
@@ -40,6 +24,19 @@ window.PUBLICATIONS_DATA = {
       ],
       "year": 2026,
       "venue": "ACL Rolling Review (ARR)",
+      "url": "",
+      "citations": 0
+    },
+    {
+      "title": "ES-GRPO: Evidence-Shaped GRPO for Low-Data Multi-Hop Question Answering",
+      "authors": [
+        "Kaiyi Hu",
+        "Xiangbo Zhang",
+        "Jia Yee Tan",
+        "Xiaoxu Ma"
+      ],
+      "year": 2026,
+      "venue": "ARR 2026 (submission)",
       "url": "",
       "citations": 0
     },
