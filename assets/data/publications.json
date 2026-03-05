@@ -1,42 +1,17 @@
 {
   "scholar_user_id": "jVJaA-QAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=jVJaA-QAAAAJ&hl=en",
-  "generated_at": "2026-02-20T00:00:00.000000+00:00",
+  "generated_at": "2026-03-02T12:57:08.056462+00:00",
   "publications": [
     {
-      "title": "Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts",
+      "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
       "authors": [
-        "Qianqi Ye",
-        "Sangwon Sang",
         "Xiaoxu Ma",
+<<<<<<< HEAD
         "Xiangbo Zhang"
       ],
       "year": 2026,
       "venue": "CHI 2026 (Accepted)",
-      "url": "",
-      "citations": 0
-    },
-    {
-      "title": "Memory Dial: A Training Framework for Controllable Memorization in Language Models",
-      "authors": [
-        "Xiangbo Zhang",
-        "Ali Emami"
-      ],
-      "year": 2026,
-      "venue": "ACL Rolling Review (ARR)",
-      "url": "",
-      "citations": 0
-    },
-    {
-      "title": "ES-GRPO: Evidence-Shaped GRPO for Low-Data Multi-Hop Question Answering",
-      "authors": [
-        "Kaiyi Hu",
-        "Xiangbo Zhang",
-        "Jia Yee Tan",
-        "Xiaoxu Ma"
-      ],
-      "year": 2026,
-      "venue": "ARR 2026 (submission)",
       "url": "",
       "citations": 0
     },
@@ -48,38 +23,22 @@
         "Zhenyu Weng"
       ],
       "year": 2026,
-      "venue": "ACL Rolling Review (ARR)",
-      "url": "",
+      "venue": "arXiv preprint arXiv:2601.09833",
+      "url": "https://arxiv.org/abs/2601.09833",
       "citations": 0
     },
     {
-      "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms",
+      "title": "Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts",
       "authors": [
+        "Cong Ye",
+        "Songlin Shang",
         "Xiaoxu Ma",
-        "Runhao Li",
-        "Hanwen Liu",
-        "Xiangbo Zhang",
-        "Zhenyu Weng"
+        "Xiangbo Zhang"
       ],
       "year": 2026,
-      "venue": "ICML 2026 (Under Review)",
-      "url": "https://arxiv.org/abs/2601.09828",
+      "venue": "CHI 2026",
+      "url": "https://arxiv.org/abs/2602.22813",
       "citations": 0
-    },
-    {
-      "title": "Discrete Wavelet Transform-Based Capsule Network for Hyperspectral Image Classification",
-      "authors": [
-        "Zhiqiang Gao",
-        "Jiaqi Wang",
-        "Hangchi Shen",
-        "Zhihao Dou",
-        "Xiangbo Zhang",
-        "Kaizhu Huang"
-      ],
-      "year": 2025,
-      "venue": "arXiv preprint",
-      "url": "https://arxiv.org/abs/2501.04643",
-      "citations": 1
     },
     {
       "title": "Global Output Regulation for Uncertain Feedforward Nonlinear Systems With Unknown Nonlinear Growth Rate",
@@ -93,12 +52,27 @@
       "citations": 1
     },
     {
+      "title": "Discrete Wavelet Transform-Based Capsule Network for Hyperspectral Image Classification",
+      "authors": [
+        "Zhiqiang Gao",
+        "Jiaqi Wang",
+        "Hangchi Shen",
+        "Zhihao Dou",
+        "Xiangbo Zhang",
+        "Kaizhu Huang"
+      ],
+      "year": 2025,
+      "venue": "arXiv preprint arXiv:2501.04643",
+      "url": "https://arxiv.org/abs/2501.04643",
+      "citations": 1
+    },
+    {
       "title": "State-Feedback Control of a Class of Nonlinear Systems with Neutral Delays",
       "authors": [
         "Xiangbo Zhang"
       ],
       "year": 2024,
-      "venue": "CSIS-IAC 2024",
+      "venue": "2024 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
       "url": "https://ieeexplore.ieee.org/abstract/document/10919404/",
       "citations": 0
     }
