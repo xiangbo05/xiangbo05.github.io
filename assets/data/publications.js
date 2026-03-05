@@ -12,7 +12,7 @@ window.PUBLICATIONS_DATA = {
         "Zhenyu Weng"
       ],
       "year": 2026,
-      "venue": "arXiv preprint arXiv:2601.09828",
+      "venue": "arXiv preprint 2026",
       "url": "https://arxiv.org/abs/2601.09828",
       "citations": 0
     },
@@ -24,7 +24,7 @@ window.PUBLICATIONS_DATA = {
         "Zhenyu Weng"
       ],
       "year": 2026,
-      "venue": "arXiv preprint arXiv:2601.09833",
+      "venue": "arXiv preprint 2026",
       "url": "https://arxiv.org/abs/2601.09833",
       "citations": 0
     },
@@ -37,7 +37,7 @@ window.PUBLICATIONS_DATA = {
         "Xiangbo Zhang"
       ],
       "year": 2026,
-      "venue": "CHI 2026",
+      "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
       "url": "https://arxiv.org/abs/2602.22813",
       "citations": 0
     },
@@ -48,7 +48,7 @@ window.PUBLICATIONS_DATA = {
         "Xiangbo Zhang"
       ],
       "year": 2025,
-      "venue": "International Journal of Robust and Nonlinear Control",
+      "venue": "International Journal of Robust and Nonlinear Control (IJRNC)",
       "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.7862",
       "citations": 1
     },
@@ -63,7 +63,7 @@ window.PUBLICATIONS_DATA = {
         "Kaizhu Huang"
       ],
       "year": 2025,
-      "venue": "arXiv preprint arXiv:2501.04643",
+      "venue": "arXiv preprint 2025",
       "url": "https://arxiv.org/abs/2501.04643",
       "citations": 1
     },
@@ -73,7 +73,7 @@ window.PUBLICATIONS_DATA = {
         "Xiangbo Zhang"
       ],
       "year": 2024,
-      "venue": "2024 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
+      "venue": "International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
       "url": "https://ieeexplore.ieee.org/abstract/document/10919404/",
       "citations": 0
     }

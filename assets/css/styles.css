@@ -438,6 +438,23 @@ hr {
   margin-bottom: 0.7rem;
 }
 
+.pub-year h3 {
+  margin-bottom: 0.55rem;
+  font-size: 1rem;
+}
+
+.pub-type {
+  margin-bottom: 1.4rem;
+  padding: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.pub-type-title {
+  margin: 0 0 0.7rem;
+}
+
 .contact-card p {
   padding-bottom: 0;
 }

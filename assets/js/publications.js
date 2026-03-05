@@ -24,19 +24,14 @@
       }
 
       if (allMount) {
-        const grouped = groupByYear(publications);
-        const years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
-        allMount.innerHTML = years
-          .map((year) => {
-            return `
-              <section class="pub-year">
-                <h2>${escapeHtml(year)}</h2>
-                <div class="paper-grid">
-                  ${grouped[year].map(renderCard).join('')}
-                </div>
-              </section>
-            `;
-          })
+        const preprints = publications.filter(isPreprint);
+        const published = publications.filter((item) => !isPreprint(item));
+        allMount.innerHTML = [
+          { title: 'Published Papers', items: published },
+          { title: 'Preprints', items: preprints }
+        ]
+          .map((group) => renderTypeSection(group.title, group.items))
+          .filter(Boolean)
           .join('');
       }
     })
@@ -75,6 +70,38 @@
       acc[y].push(item);
       return acc;
     }, {});
+  }
+
+  function isPreprint(item) {
+    const venue = String(item.venue || '').toLowerCase();
+    return venue.includes('arxiv');
+  }
+
+  function renderTypeSection(title, items) {
+    if (!items.length) {
+      return '';
+    }
+
+    const grouped = groupByYear(items);
+    const years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
+
+    return `
+      <section class="pub-type">
+        <h2 class="pub-type-title">${escapeHtml(title)}</h2>
+        ${years
+          .map((year) => {
+            return `
+              <section class="pub-year">
+                <h3>${escapeHtml(year)}</h3>
+                <div class="paper-grid">
+                  ${grouped[year].map(renderCard).join('')}
+                </div>
+              </section>
+            `;
+          })
+          .join('')}
+      </section>
+    `;
   }
 
   function renderCard(item) {
