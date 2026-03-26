@@ -72,7 +72,13 @@
       { threshold: 0.16 }
     );
 
-    revealElements.forEach((el) => observer.observe(el));
+    revealElements.forEach((el) => {
+      observer.observe(el);
+      if (el.getBoundingClientRect().top <= window.innerHeight * 0.95) {
+        el.classList.add('visible');
+        observer.unobserve(el);
+      }
+    });
   } else {
     revealElements.forEach((el) => el.classList.add('visible'));
   }
