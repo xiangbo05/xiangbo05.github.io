@@ -23,6 +23,23 @@
       "citations": 0
     },
     {
+      "title": "Memory Dial: A Training Framework for Controllable Memorization in Language Models",
+      "authors": [
+        "Xiangbo Zhang",
+        "Ali Emami"
+      ],
+      "year": 2026,
+      "venue": "The 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "type": "peer-reviewed",
+      "recordType": "Conference Paper",
+      "status": "Accepted",
+      "tags": [
+        "LLMs"
+      ],
+      "firstAuthor": true,
+      "citations": 0
+    },
+    {
       "title": "Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations",
       "authors": [
         "Xiaoxu Ma",
@@ -30,9 +47,10 @@
         "Zhenyu Weng"
       ],
       "year": 2026,
-      "venue": "arXiv preprint 2026",
-      "type": "preprint",
-      "recordType": "Preprint",
+      "venue": "The 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "type": "peer-reviewed",
+      "recordType": "Conference Paper",
+      "status": "Accepted",
       "tags": [
         "LLMs"
       ],
