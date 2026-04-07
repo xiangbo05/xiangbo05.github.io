@@ -33,6 +33,7 @@ window.PUBLICATIONS_DATA = {
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "status": "Accepted",
+      "acceptanceRate": "18%",
       "tags": [
         "LLMs"
       ],
@@ -51,6 +52,7 @@ window.PUBLICATIONS_DATA = {
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "status": "Accepted",
+      "acceptanceRate": "18%",
       "tags": [
         "LLMs"
       ],
@@ -77,6 +79,16 @@ window.PUBLICATIONS_DATA = {
       ],
       "firstAuthor": false,
       "url": "https://arxiv.org/abs/2602.22813",
+      "links": [
+        {
+          "label": "View arXiv",
+          "url": "https://arxiv.org/abs/2602.22813"
+        },
+        {
+          "label": "Official program",
+          "url": "https://programs.sigchi.org/chi/2026/program/content/225820"
+        }
+      ],
       "citations": 0
     },
     {

@@ -100,7 +100,8 @@
       type: item.type || inferredType,
       recordType: item.recordType || (inferredType === 'preprint' ? 'Preprint' : 'Publication'),
       tags: Array.isArray(item.tags) ? item.tags : [],
-      firstAuthor: Boolean(item.firstAuthor)
+      firstAuthor: Boolean(item.firstAuthor),
+      links: normalizeLinks(item.links, item.url)
     };
   }
 
@@ -262,8 +263,13 @@
       badges.push(`<span class="badge badge-accent">Acceptance Rate ${escapeHtml(item.acceptanceRate)}</span>`);
     }
 
-    const paperLink = item.url
-      ? `<a href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">${getPaperLinkLabel(item.url)}</a>`
+    const paperLinks = Array.isArray(item.links)
+      ? item.links
+          .map(
+            (link) =>
+              `<a href="${escapeAttr(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.label)}</a>`
+          )
+          .join('')
       : '';
     const meta = [item.recordType, item.year].filter(Boolean).map(escapeHtml).join(' • ');
 
@@ -279,12 +285,38 @@
         <div class="tag-row">
           ${tags.map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join('')}
         </div>
-        <div class="paper-links">${paperLink}</div>
+        <div class="paper-links">${paperLinks}</div>
       </article>
     `;
   }
 
+  function normalizeLinks(links, fallbackUrl) {
+    const normalized = Array.isArray(links)
+      ? links
+          .map((link) => {
+            const url = String(link?.url || '').trim();
+            if (!url) {
+              return null;
+            }
+
+            const label = String(link?.label || '').trim() || getPaperLinkLabel(url);
+            return { label, url };
+          })
+          .filter(Boolean)
+      : [];
+
+    if (normalized.length) {
+      return normalized;
+    }
+
+    const url = String(fallbackUrl || '').trim();
+    return url ? [{ label: getPaperLinkLabel(url), url }] : [];
+  }
+
   function getPaperLinkLabel(url) {
+    if (/programs\.sigchi\.org/i.test(url)) {
+      return 'Official program';
+    }
     return /arxiv\.org/i.test(url) ? 'View arXiv' : 'View paper';
   }
 

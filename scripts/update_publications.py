@@ -12,12 +12,69 @@ SCHOLAR_USER_ID = os.getenv('SCHOLAR_USER_ID', 'jVJaA-QAAAAJ')
 OUT_PATH = Path('assets/data/publications.json')
 OUT_JS_PATH = Path('assets/data/publications.js')
 
-# Manual metadata fixes.
-TITLE_OVERRIDES = {
+# Manual publication metadata that is not available from Google Scholar.
+MANUAL_PUBLICATION_METADATA = {
+    'UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval': {
+        'type': 'preprint',
+        'recordType': 'Preprint',
+        'tags': ['CV'],
+        'firstAuthor': False,
+        'url': 'https://arxiv.org/abs/2601.09828',
+    },
+    'Memory Dial: A Training Framework for Controllable Memorization in Language Models': {
+        'type': 'peer-reviewed',
+        'recordType': 'Conference Paper',
+        'status': 'Accepted',
+        'acceptanceRate': '18%',
+        'tags': ['LLMs'],
+        'firstAuthor': True,
+    },
+    'Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations': {
+        'type': 'peer-reviewed',
+        'recordType': 'Conference Paper',
+        'status': 'Accepted',
+        'acceptanceRate': '18%',
+        'tags': ['LLMs'],
+        'firstAuthor': False,
+        'url': 'https://arxiv.org/abs/2601.09833',
+    },
+    'Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts': {
+        'type': 'peer-reviewed',
+        'recordType': 'Conference Paper',
+        'status': 'Accepted',
+        'acceptanceRate': '38.4%',
+        'tags': ['HCI'],
+        'firstAuthor': False,
+        'url': 'https://arxiv.org/abs/2602.22813',
+        'links': [
+            {'label': 'View arXiv', 'url': 'https://arxiv.org/abs/2602.22813'},
+            {'label': 'Official program', 'url': 'https://programs.sigchi.org/chi/2026/program/content/225820'},
+        ],
+    },
+    'Global Output Regulation for Uncertain Feedforward Nonlinear Systems With Unknown Nonlinear Growth Rate': {
+        'type': 'peer-reviewed',
+        'recordType': 'Journal Article',
+        'acceptanceRate': '25%',
+        'tags': ['Control Theory'],
+        'firstAuthor': False,
+        'url': 'https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.7862',
+    },
+    'Discrete Wavelet Transform-Based Capsule Network for Hyperspectral Image Classification': {
+        'type': 'preprint',
+        'recordType': 'Preprint',
+        'tags': ['CV'],
+        'firstAuthor': False,
+        'url': 'https://arxiv.org/abs/2501.04643',
+    },
     'State-Feedback Control of a Class of Nonlinear Systems with Neutral Delays': {
         'venue': '2024 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)',
         'year': 2024,
-    }
+        'type': 'peer-reviewed',
+        'recordType': 'Conference Paper',
+        'tags': ['Control Theory'],
+        'firstAuthor': True,
+        'url': 'https://ieeexplore.ieee.org/abstract/document/10919404/',
+    },
 }
 
 
@@ -29,6 +86,14 @@ def split_authors(author_text: str) -> list[str]:
 
 def normalize_text(text: str) -> str:
     return re.sub(r'\s+', ' ', (text or '').strip()).casefold()
+
+
+def get_manual_metadata(title: str) -> dict:
+    normalized_title = normalize_text(title)
+    for key_title, metadata in MANUAL_PUBLICATION_METADATA.items():
+        if normalize_text(key_title) == normalized_title:
+            return metadata
+    return {}
 
 
 def fetch_publications() -> dict:
@@ -56,23 +121,16 @@ def fetch_publications() -> dict:
         authors = split_authors(bib.get('author', ''))
         url = (filled.get('pub_url') or filled.get('eprint_url') or '').strip()
 
-        # Apply title-based overrides.
-        for key_title, override in TITLE_OVERRIDES.items():
-            if normalize_text(title) == normalize_text(key_title):
-                venue = override.get('venue', venue)
-                year = override.get('year', year)
-                break
-
-        items.append(
-            {
-                'title': title,
-                'authors': authors,
-                'year': year,
-                'venue': venue,
-                'url': url,
-                'citations': int(filled.get('num_citations', 0) or 0),
-            }
-        )
+        item = {
+            'title': title,
+            'authors': authors,
+            'year': year,
+            'venue': venue,
+            'url': url,
+            'citations': int(filled.get('num_citations', 0) or 0),
+        }
+        item.update(get_manual_metadata(title))
+        items.append(item)
 
     items.sort(key=lambda x: (x.get('year') or 0, x.get('title') or ''), reverse=True)
 
