@@ -28,6 +28,7 @@ MANUAL_PUBLICATION_METADATA = {
         'acceptanceRate': '18%',
         'tags': ['LLMs'],
         'firstAuthor': True,
+        'url': 'https://arxiv.org/abs/2604.05074',
     },
     'Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations': {
         'type': 'peer-reviewed',

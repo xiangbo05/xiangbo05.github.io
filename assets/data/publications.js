@@ -38,6 +38,7 @@ window.PUBLICATIONS_DATA = {
         "LLMs"
       ],
       "firstAuthor": true,
+      "url": "https://arxiv.org/abs/2604.05074",
       "citations": 0
     },
     {
