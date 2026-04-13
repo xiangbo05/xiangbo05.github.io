@@ -49,7 +49,7 @@ MANUAL_PUBLICATION_METADATA = {
         'url': 'https://arxiv.org/abs/2602.22813',
         'links': [
             {'label': 'View arXiv', 'url': 'https://arxiv.org/abs/2602.22813'},
-            {'label': 'Official program', 'url': 'https://programs.sigchi.org/chi/2026/program/content/225820'},
+            {'label': 'Official', 'url': 'https://dl.acm.org/doi/10.1145/3772363.3798580'},
         ],
     },
     'Global Output Regulation for Uncertain Feedforward Nonlinear Systems With Unknown Nonlinear Growth Rate': {
