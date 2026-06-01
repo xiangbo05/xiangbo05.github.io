@@ -1,7 +1,7 @@
 {
   "scholar_user_id": "jVJaA-QAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=jVJaA-QAAAAJ&hl=en",
-  "generated_at": "2026-03-26T23:55:00.000000+00:00",
+  "generated_at": "2026-06-01T17:36:41.733550+00:00",
   "publications": [
     {
       "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
@@ -12,34 +12,15 @@
         "Zhenyu Weng"
       ],
       "year": 2026,
-      "venue": "arXiv preprint 2026",
+      "venue": "arXiv preprint arXiv:2601.09828",
+      "url": "https://arxiv.org/abs/2601.09828",
+      "citations": 0,
       "type": "preprint",
       "recordType": "Preprint",
       "tags": [
         "CV"
       ],
-      "firstAuthor": false,
-      "url": "https://arxiv.org/abs/2601.09828",
-      "citations": 0
-    },
-    {
-      "title": "Memory Dial: A Training Framework for Controllable Memorization in Language Models",
-      "authors": [
-        "Xiangbo Zhang",
-        "Ali Emami"
-      ],
-      "year": 2026,
-      "venue": "The 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
-      "type": "peer-reviewed",
-      "recordType": "Conference Paper",
-      "status": "Accepted",
-      "acceptanceRate": "18%",
-      "tags": [
-        "LLMs"
-      ],
-      "firstAuthor": true,
-      "url": "https://arxiv.org/abs/2604.05074",
-      "citations": 0
+      "firstAuthor": false
     },
     {
       "title": "Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations",
@@ -49,7 +30,9 @@
         "Zhenyu Weng"
       ],
       "year": 2026,
-      "venue": "The 64th Annual Meeting of the Association for Computational Linguistics (ACL)",
+      "venue": "ACL 2026",
+      "url": "https://arxiv.org/abs/2601.09833",
+      "citations": 3,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "status": "Accepted",
@@ -57,9 +40,26 @@
       "tags": [
         "LLMs"
       ],
-      "firstAuthor": false,
-      "url": "https://arxiv.org/abs/2601.09833",
-      "citations": 0
+      "firstAuthor": false
+    },
+    {
+      "title": "Memory Dial: A Training Framework for Controllable Memorization in Language Models",
+      "authors": [
+        "Xiangbo Zhang",
+        "Ali Emami"
+      ],
+      "year": 2026,
+      "venue": "ACL 2026",
+      "url": "https://arxiv.org/abs/2604.05074",
+      "citations": 0,
+      "type": "peer-reviewed",
+      "recordType": "Conference Paper",
+      "status": "Accepted",
+      "acceptanceRate": "18%",
+      "tags": [
+        "LLMs"
+      ],
+      "firstAuthor": true
     },
     {
       "title": "Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts",
@@ -70,7 +70,9 @@
         "Xiangbo Zhang"
       ],
       "year": 2026,
-      "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
+      "venue": "CHI 2026",
+      "url": "https://arxiv.org/abs/2602.22813",
+      "citations": 0,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "status": "Accepted",
@@ -79,7 +81,6 @@
         "HCI"
       ],
       "firstAuthor": false,
-      "url": "https://arxiv.org/abs/2602.22813",
       "links": [
         {
           "label": "View arXiv",
@@ -89,8 +90,7 @@
           "label": "Official",
           "url": "https://dl.acm.org/doi/10.1145/3772363.3798580"
         }
-      ],
-      "citations": 0
+      ]
     },
     {
       "title": "Global Output Regulation for Uncertain Feedforward Nonlinear Systems With Unknown Nonlinear Growth Rate",
@@ -99,16 +99,16 @@
         "Xiangbo Zhang"
       ],
       "year": 2025,
-      "venue": "International Journal of Robust and Nonlinear Control (IJRNC)",
+      "venue": "International Journal of Robust and Nonlinear Control",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.7862",
+      "citations": 1,
       "type": "peer-reviewed",
       "recordType": "Journal Article",
       "acceptanceRate": "25%",
       "tags": [
         "Control Theory"
       ],
-      "firstAuthor": false,
-      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/rnc.7862",
-      "citations": 1
+      "firstAuthor": false
     },
     {
       "title": "Discrete Wavelet Transform-Based Capsule Network for Hyperspectral Image Classification",
@@ -121,15 +121,15 @@
         "Kaizhu Huang"
       ],
       "year": 2025,
-      "venue": "arXiv preprint 2025",
+      "venue": "arXiv preprint arXiv:2501.04643",
+      "url": "https://arxiv.org/abs/2501.04643",
+      "citations": 1,
       "type": "preprint",
       "recordType": "Preprint",
       "tags": [
         "CV"
       ],
-      "firstAuthor": false,
-      "url": "https://arxiv.org/abs/2501.04643",
-      "citations": 1
+      "firstAuthor": false
     },
     {
       "title": "State-Feedback Control of a Class of Nonlinear Systems with Neutral Delays",
@@ -137,15 +137,15 @@
         "Xiangbo Zhang"
       ],
       "year": 2024,
-      "venue": "International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
+      "venue": "2024 International Annual Conference on Complex Systems and Intelligent Science (CSIS-IAC)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10919404/",
+      "citations": 0,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "tags": [
         "Control Theory"
       ],
-      "firstAuthor": true,
-      "url": "https://ieeexplore.ieee.org/abstract/document/10919404/",
-      "citations": 0
+      "firstAuthor": true
     }
   ]
 }
