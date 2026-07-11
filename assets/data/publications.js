@@ -124,7 +124,7 @@ window.PUBLICATIONS_DATA = {
         "Xiangbo Zhang"
       ],
       "year": 2026,
-      "venue": "CHI 2026",
+      "venue": "ACM Conference on Human Factors in Computing Systems (CHI)",
       "url": "https://arxiv.org/abs/2602.22813",
       "citations": 0,
       "type": "peer-reviewed",

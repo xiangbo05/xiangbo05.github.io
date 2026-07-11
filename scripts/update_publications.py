@@ -69,6 +69,7 @@ MANUAL_PUBLICATION_METADATA = {
     'Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts': {
         'type': 'peer-reviewed',
         'recordType': 'Conference Paper',
+        'venue': 'ACM Conference on Human Factors in Computing Systems (CHI)',
         'acceptanceRate': '38.4%',
         'tags': ['HCI'],
         'firstAuthor': False,
