@@ -21,6 +21,25 @@
       "citations": 0
     },
     {
+      "title": "Logical Matrix Factorization towards Robust Stabilization of Boolean Control Networks with Function Perturbation",
+      "authors": [
+        "Haitao Li",
+        "Wenrong Li",
+        "Guodong Zhao",
+        "Xiangbo Zhang",
+        "Yuanhua Wang"
+      ],
+      "year": 2026,
+      "venue": "IFAC World Congress 2026",
+      "type": "peer-reviewed",
+      "recordType": "Invited Session Paper",
+      "tags": [
+        "Control Theory"
+      ],
+      "firstAuthor": false,
+      "citations": 0
+    },
+    {
       "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
       "authors": [
         "Xiaoxu Ma",

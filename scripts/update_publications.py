@@ -57,6 +57,15 @@ MANUAL_PUBLICATION_METADATA = {
         'tags': ['LLMs'],
         'firstAuthor': True,
     },
+    'Logical Matrix Factorization towards Robust Stabilization of Boolean Control Networks with Function Perturbation': {
+        'authors': ['Haitao Li', 'Wenrong Li', 'Guodong Zhao', 'Xiangbo Zhang', 'Yuanhua Wang'],
+        'year': 2026,
+        'venue': 'IFAC World Congress 2026',
+        'type': 'peer-reviewed',
+        'recordType': 'Invited Session Paper',
+        'tags': ['Control Theory'],
+        'firstAuthor': False,
+    },
     'Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts': {
         'type': 'peer-reviewed',
         'recordType': 'Conference Paper',
@@ -106,6 +115,17 @@ MANUAL_ONLY_PUBLICATIONS = [
         'acceptanceRate': '29%',
         'tags': ['LLMs'],
         'firstAuthor': True,
+        'citations': 0,
+    },
+    {
+        'title': 'Logical Matrix Factorization towards Robust Stabilization of Boolean Control Networks with Function Perturbation',
+        'authors': ['Haitao Li', 'Wenrong Li', 'Guodong Zhao', 'Xiangbo Zhang', 'Yuanhua Wang'],
+        'year': 2026,
+        'venue': 'IFAC World Congress 2026',
+        'type': 'peer-reviewed',
+        'recordType': 'Invited Session Paper',
+        'tags': ['Control Theory'],
+        'firstAuthor': False,
         'citations': 0,
     },
 ]
