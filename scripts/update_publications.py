@@ -24,25 +24,42 @@ MANUAL_PUBLICATION_METADATA = {
     'Memory Dial: A Training Framework for Controllable Memorization in Language Models': {
         'type': 'peer-reviewed',
         'recordType': 'Conference Paper',
-        'status': 'Accepted',
         'acceptanceRate': '18%',
         'tags': ['LLMs'],
         'firstAuthor': True,
         'url': 'https://arxiv.org/abs/2604.05074',
+        'venue': 'Findings of the Association for Computational Linguistics: ACL 2026',
+        'links': [
+            {'label': 'View arXiv', 'url': 'https://arxiv.org/abs/2604.05074'},
+            {'label': 'Official', 'url': 'https://aclanthology.org/2026.findings-acl.179/'},
+        ],
     },
     'Stable and Explainable Personality Trait Evaluation in Large Language Models with Internal Activations': {
         'type': 'peer-reviewed',
         'recordType': 'Conference Paper',
-        'status': 'Accepted',
         'acceptanceRate': '18%',
         'tags': ['LLMs'],
         'firstAuthor': False,
         'url': 'https://arxiv.org/abs/2601.09833',
+        'venue': 'Findings of the Association for Computational Linguistics: ACL 2026',
+        'links': [
+            {'label': 'View arXiv', 'url': 'https://arxiv.org/abs/2601.09833'},
+            {'label': 'Official', 'url': 'https://aclanthology.org/2026.findings-acl.803/'},
+        ],
+    },
+    'Grounding Latent Algorithm Routing in Transformer Reasoning': {
+        'authors': ['Xiangbo Zhang', 'Xiaoxu Ma'],
+        'year': 2026,
+        'venue': 'Conference on Language Modeling (COLM)',
+        'type': 'peer-reviewed',
+        'recordType': 'Conference Paper',
+        'acceptanceRate': '29%',
+        'tags': ['LLMs'],
+        'firstAuthor': True,
     },
     'Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts': {
         'type': 'peer-reviewed',
         'recordType': 'Conference Paper',
-        'status': 'Accepted',
         'acceptanceRate': '38.4%',
         'tags': ['HCI'],
         'firstAuthor': False,
@@ -77,6 +94,21 @@ MANUAL_PUBLICATION_METADATA = {
         'url': 'https://ieeexplore.ieee.org/abstract/document/10919404/',
     },
 }
+
+MANUAL_ONLY_PUBLICATIONS = [
+    {
+        'title': 'Grounding Latent Algorithm Routing in Transformer Reasoning',
+        'authors': ['Xiangbo Zhang', 'Xiaoxu Ma'],
+        'year': 2026,
+        'venue': 'Conference on Language Modeling (COLM)',
+        'type': 'peer-reviewed',
+        'recordType': 'Conference Paper',
+        'acceptanceRate': '29%',
+        'tags': ['LLMs'],
+        'firstAuthor': True,
+        'citations': 0,
+    },
+]
 
 
 def split_authors(author_text: str) -> list[str]:
@@ -132,6 +164,12 @@ def fetch_publications() -> dict:
         }
         item.update(get_manual_metadata(title))
         items.append(item)
+
+    seen_titles = {normalize_text(item.get('title', '')) for item in items}
+    for manual_item in MANUAL_ONLY_PUBLICATIONS:
+        title = manual_item.get('title', '')
+        if title and normalize_text(title) not in seen_titles:
+            items.append(dict(manual_item))
 
     items.sort(key=lambda x: (x.get('year') or 0, x.get('title') or ''), reverse=True)
 

@@ -4,6 +4,23 @@
   "generated_at": "2026-06-22T16:54:11.574039+00:00",
   "publications": [
     {
+      "title": "Grounding Latent Algorithm Routing in Transformer Reasoning",
+      "authors": [
+        "Xiangbo Zhang",
+        "Xiaoxu Ma"
+      ],
+      "year": 2026,
+      "venue": "Conference on Language Modeling (COLM)",
+      "type": "peer-reviewed",
+      "recordType": "Conference Paper",
+      "acceptanceRate": "29%",
+      "tags": [
+        "LLMs"
+      ],
+      "firstAuthor": true,
+      "citations": 0
+    },
+    {
       "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
       "authors": [
         "Xiaoxu Ma",
@@ -30,17 +47,26 @@
         "Zhenyu Weng"
       ],
       "year": 2026,
-      "venue": "ACL 2026",
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
       "url": "https://arxiv.org/abs/2601.09833",
       "citations": 3,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
-      "status": "Accepted",
       "acceptanceRate": "18%",
       "tags": [
         "LLMs"
       ],
-      "firstAuthor": false
+      "firstAuthor": false,
+      "links": [
+        {
+          "label": "View arXiv",
+          "url": "https://arxiv.org/abs/2601.09833"
+        },
+        {
+          "label": "Official",
+          "url": "https://aclanthology.org/2026.findings-acl.803/"
+        }
+      ]
     },
     {
       "title": "Memory Dial: A Training Framework for Controllable Memorization in Language Models",
@@ -49,17 +75,26 @@
         "Ali Emami"
       ],
       "year": 2026,
-      "venue": "ACL 2026",
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
       "url": "https://arxiv.org/abs/2604.05074",
       "citations": 1,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
-      "status": "Accepted",
       "acceptanceRate": "18%",
       "tags": [
         "LLMs"
       ],
-      "firstAuthor": true
+      "firstAuthor": true,
+      "links": [
+        {
+          "label": "View arXiv",
+          "url": "https://arxiv.org/abs/2604.05074"
+        },
+        {
+          "label": "Official",
+          "url": "https://aclanthology.org/2026.findings-acl.179/"
+        }
+      ]
     },
     {
       "title": "Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts",
@@ -75,7 +110,6 @@
       "citations": 0,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
-      "status": "Accepted",
       "acceptanceRate": "38.4%",
       "tags": [
         "HCI"
