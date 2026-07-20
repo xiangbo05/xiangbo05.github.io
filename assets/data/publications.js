@@ -1,44 +1,8 @@
 window.PUBLICATIONS_DATA = {
   "scholar_user_id": "jVJaA-QAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=jVJaA-QAAAAJ&hl=en",
-  "generated_at": "2026-06-22T16:54:11.574039+00:00",
+  "generated_at": "2026-07-20T14:01:58.319124+00:00",
   "publications": [
-    {
-      "title": "Grounding Latent Algorithm Routing in Transformer Reasoning",
-      "authors": [
-        "Xiangbo Zhang",
-        "Xiaoxu Ma"
-      ],
-      "year": 2026,
-      "venue": "Conference on Language Modeling (COLM)",
-      "type": "peer-reviewed",
-      "recordType": "Conference Paper",
-      "acceptanceRate": "29%",
-      "tags": [
-        "LLMs"
-      ],
-      "firstAuthor": true,
-      "citations": 0
-    },
-    {
-      "title": "Logical Matrix Factorization towards Robust Stabilization of Boolean Control Networks with Function Perturbation",
-      "authors": [
-        "Haitao Li",
-        "Wenrong Li",
-        "Guodong Zhao",
-        "Xiangbo Zhang",
-        "Yuanhua Wang"
-      ],
-      "year": 2026,
-      "venue": "IFAC World Congress 2026",
-      "type": "peer-reviewed",
-      "recordType": "Invited Session Paper",
-      "tags": [
-        "Control Theory"
-      ],
-      "firstAuthor": false,
-      "citations": 0
-    },
     {
       "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
       "authors": [
@@ -50,7 +14,7 @@ window.PUBLICATIONS_DATA = {
       "year": 2026,
       "venue": "arXiv preprint arXiv:2601.09828",
       "url": "https://arxiv.org/abs/2601.09828",
-      "citations": 0,
+      "citations": 1,
       "type": "preprint",
       "recordType": "Preprint",
       "tags": [
@@ -68,7 +32,7 @@ window.PUBLICATIONS_DATA = {
       "year": 2026,
       "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
       "url": "https://arxiv.org/abs/2601.09833",
-      "citations": 3,
+      "citations": 8,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "acceptanceRate": "18%",
@@ -116,6 +80,25 @@ window.PUBLICATIONS_DATA = {
       ]
     },
     {
+      "title": "Logical Matrix Factorization towards Robust Stabilization of Boolean Control Networks with Function Perturbation",
+      "authors": [
+        "Haitao Li",
+        "Wenrong Li",
+        "Guodong Zhao",
+        "Xiangbo Zhang",
+        "Yuanhua Wang"
+      ],
+      "year": 2026,
+      "venue": "IFAC World Congress 2026",
+      "type": "peer-reviewed",
+      "recordType": "Invited Session Paper",
+      "tags": [
+        "Control Theory"
+      ],
+      "firstAuthor": false,
+      "citations": 0
+    },
+    {
       "title": "Input-Envelope-Output: Auditable Generative Music Rewards in Sensory-Sensitive Contexts",
       "authors": [
         "Cong Ye",
@@ -144,6 +127,23 @@ window.PUBLICATIONS_DATA = {
           "url": "https://dl.acm.org/doi/10.1145/3772363.3798580"
         }
       ]
+    },
+    {
+      "title": "Grounding Latent Algorithm Routing in Transformer Reasoning",
+      "authors": [
+        "Xiangbo Zhang",
+        "Xiaoxu Ma"
+      ],
+      "year": 2026,
+      "venue": "Conference on Language Modeling (COLM)",
+      "type": "peer-reviewed",
+      "recordType": "Conference Paper",
+      "acceptanceRate": "29%",
+      "tags": [
+        "LLMs"
+      ],
+      "firstAuthor": true,
+      "citations": 0
     },
     {
       "title": "Global Output Regulation for Uncertain Feedforward Nonlinear Systems With Unknown Nonlinear Growth Rate",
