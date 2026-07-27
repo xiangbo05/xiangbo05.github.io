@@ -1,7 +1,7 @@
 window.PUBLICATIONS_DATA = {
   "scholar_user_id": "jVJaA-QAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=jVJaA-QAAAAJ&hl=en",
-  "generated_at": "2026-07-20T14:01:58.319124+00:00",
+  "generated_at": "2026-07-27T14:29:54.980378+00:00",
   "publications": [
     {
       "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
@@ -32,7 +32,7 @@ window.PUBLICATIONS_DATA = {
       "year": 2026,
       "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
       "url": "https://arxiv.org/abs/2601.09833",
-      "citations": 8,
+      "citations": 7,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "acceptanceRate": "18%",
@@ -176,7 +176,7 @@ window.PUBLICATIONS_DATA = {
       "year": 2025,
       "venue": "arXiv preprint arXiv:2501.04643",
       "url": "https://arxiv.org/abs/2501.04643",
-      "citations": 1,
+      "citations": 2,
       "type": "preprint",
       "recordType": "Preprint",
       "tags": [
