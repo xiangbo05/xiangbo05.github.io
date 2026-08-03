@@ -1,7 +1,7 @@
 window.PUBLICATIONS_DATA = {
   "scholar_user_id": "jVJaA-QAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=jVJaA-QAAAAJ&hl=en",
-  "generated_at": "2026-07-27T14:29:54.980378+00:00",
+  "generated_at": "2026-08-03T14:35:02.222487+00:00",
   "publications": [
     {
       "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
@@ -32,7 +32,7 @@ window.PUBLICATIONS_DATA = {
       "year": 2026,
       "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
       "url": "https://arxiv.org/abs/2601.09833",
-      "citations": 7,
+      "citations": 9,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "acceptanceRate": "18%",
@@ -146,7 +146,7 @@ window.PUBLICATIONS_DATA = {
       "citations": 0
     },
     {
-      "title": "Global Output Regulation for Uncertain Feedforward Nonlinear Systems With Unknown Nonlinear Growth Rate",
+      "title": "Global output regulation for uncertain feedforward nonlinear systems with unknown nonlinear growth rate",
       "authors": [
         "Le Chang",
         "Xiangbo Zhang"
