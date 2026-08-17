@@ -1,7 +1,7 @@
 {
   "scholar_user_id": "jVJaA-QAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=jVJaA-QAAAAJ&hl=en",
-  "generated_at": "2026-08-03T14:35:02.222487+00:00",
+  "generated_at": "2026-08-17T12:39:49.152225+00:00",
   "publications": [
     {
       "title": "UniHash: Unifying Pointwise and Pairwise Hashing Paradigms for Seen and Unseen Category Retrieval",
@@ -32,7 +32,7 @@
       "year": 2026,
       "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
       "url": "https://arxiv.org/abs/2601.09833",
-      "citations": 9,
+      "citations": 10,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "acceptanceRate": "18%",
@@ -129,21 +129,22 @@
       ]
     },
     {
-      "title": "Grounding Latent Algorithm Routing in Transformer Reasoning",
+      "title": "Grounding latent algorithm routing in transformer reasoning",
       "authors": [
         "Xiangbo Zhang",
         "Xiaoxu Ma"
       ],
       "year": 2026,
       "venue": "Conference on Language Modeling (COLM)",
+      "url": "https://arxiv.org/abs/2607.24471",
+      "citations": 0,
       "type": "peer-reviewed",
       "recordType": "Conference Paper",
       "acceptanceRate": "29%",
       "tags": [
         "LLMs"
       ],
-      "firstAuthor": true,
-      "citations": 0
+      "firstAuthor": true
     },
     {
       "title": "Global output regulation for uncertain feedforward nonlinear systems with unknown nonlinear growth rate",
@@ -176,7 +177,7 @@
       "year": 2025,
       "venue": "arXiv preprint arXiv:2501.04643",
       "url": "https://arxiv.org/abs/2501.04643",
-      "citations": 2,
+      "citations": 3,
       "type": "preprint",
       "recordType": "Preprint",
       "tags": [
